@@ -44,7 +44,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 2023-05-05 19:17:12,316 ERROR [main][NamingProxy.java:617] - [NA] failed to request
 java.net.ConnectException: Connection refused: connect
 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
@@ -91,7 +91,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 2023-05-05 19:17:14,792 ERROR [main][NamingProxy.java:617] - [NA] failed to request
 java.net.ConnectException: Connection refused: connect
 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
@@ -138,7 +138,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 2023-05-05 19:17:14,793 ERROR [main][NamingProxy.java:552] - request: /nacos/v1/ns/instance/list failed, servers: [47.100.12.131:8848], code: 500, msg: Connection refused: connect
 2023-05-05 19:17:14,793 ERROR [main][HostReactor.java:347] - [NA] failed to update serviceName: xiaochu-project@@user-api
 ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance/list after all servers([47.100.12.131:8848]) tried: java.net.ConnectException: Connection refused: connect
@@ -166,7 +166,7 @@ ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance/list after all serve
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 2023-05-05 19:17:17,453 ERROR [main][NamingProxy.java:617] - [NA] failed to request
 java.net.ConnectException: Connection refused: connect
 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
@@ -221,7 +221,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 2023-05-05 19:17:18,470 ERROR [com.alibaba.nacos.client.naming.updater][NamingProxy.java:617] - [NA] failed to request
 java.net.ConnectException: Connection refused: connect
 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
@@ -310,7 +310,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 2023-05-05 19:17:20,888 ERROR [com.alibaba.nacos.client.naming.updater][NamingProxy.java:617] - [NA] failed to request
 java.net.ConnectException: Connection refused: connect
 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
@@ -433,7 +433,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 2023-05-05 19:17:22,494 ERROR [main][NamingProxy.java:552] - request: /nacos/v1/ns/instance failed, servers: [47.100.12.131:8848], code: 500, msg: Connection refused: connect
 2023-05-05 19:17:22,494 ERROR [main][NacosServiceRegistry.java:80] - nacos registry, user-api register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='47.100.12.131:8848', endpoint='', namespace='dev', watchDelay=30000, logName='', service='user-api', weight=1.0, clusterName='DEFAULT', group='xiaochu-project', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.249.59', networkInterface='', port=20230, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
 ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([47.100.12.131:8848]) tried: java.net.ConnectException: Connection refused: connect
@@ -469,7 +469,7 @@ ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([4
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 2023-05-05 19:17:23,328 ERROR [com.alibaba.nacos.client.naming.updater][NamingProxy.java:617] - [NA] failed to request
 java.net.ConnectException: Connection refused: connect
 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)

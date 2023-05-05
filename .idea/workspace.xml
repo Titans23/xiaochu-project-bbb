@@ -4,26 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728debd2-310b-4a72-af81-85de38b56332" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/src/main/java/com/xiaochu/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/src/main/java/com/xiaochu/user/api/Test111.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-model/src/test/java/com/xiaochu/user/XiaochuUserModelApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-service/src/test/java/com/xiaochu/user/XiaochuUserServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="728debd2-310b-4a72-af81-85de38b56332" name="变更" comment="构建骨架完成">
+      <change afterPath="$PROJECT_DIR$/xiaochu-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-gateway/src/main/java/com/xiaochu/XiaochuGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-gateway/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-learn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-learn/xiaochu-learn-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-learn/xiaochu-learn-api/src/main/java/com/xiaochu/XiaochuLearnApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-learn/xiaochu-learn-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-learn/xiaochu-learn-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-learn/xiaochu-learn-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-learn/xiaochu-learn-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-menu/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-api/src/main/java/com/xiaochu/XiaochuMenuApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-api/src/test/java/com/xiaochu/XiaochuMenuApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-special/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-special/xiaochu-special-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-special/xiaochu-special-api/src/main/java/com/xiaochu/XiaochuSpecialApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-special/xiaochu-special-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-special/xiaochu-special-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-special/xiaochu-special-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaochu-special/xiaochu-special-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2023-05-05/error.2023-05-05-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2023-05-05/error.2023-05-05-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2023-05-05/info.2023-05-05-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2023-05-05/info.2023-05-05-11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/src/main/java/com/xiaochu/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/src/main/java/com/xiaochu/XiaochuUserApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/target/classes/com/xiaochu/UserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-model/src/test/java/com/xiaochu/user/XiaochuUserModelApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaochu-user/xiaochu-user-service/src/test/java/com/xiaochu/user/XiaochuUserServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +89,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "D:/IntelliJ IDEA 2022.3.1/bin/xiaochu-project/xiaochu-user/xiaochu-user-api/src/main/resources",
+    "last_opened_file_path": "D:/IntelliJ IDEA 2022.3.1/bin/xiaochu-project/xiaochu-special/xiaochu-special-api/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +102,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2022.3.1\bin\xiaochu-project\xiaochu-special\xiaochu-special-api\src\main\resources" />
+      <recent name="D:\IntelliJ IDEA 2022.3.1\bin\xiaochu-project\xiaochu-learn\xiaochu-learn-api\src\main\resources" />
+      <recent name="D:\IntelliJ IDEA 2022.3.1\bin\xiaochu-project\xiaochu-gateway\src\main\resources" />
+      <recent name="D:\IntelliJ IDEA 2022.3.1\bin\xiaochu-project\xiaochu-menu\xiaochu-menu-api\src\main\resources" />
       <recent name="D:\IntelliJ IDEA 2022.3.1\bin\xiaochu-project\xiaochu-user\xiaochu-user-api\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -95,10 +119,62 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.XiaochuSpecialApiApplication">
+    <configuration name="XiaochuGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xiaochu-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaochu.XiaochuGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaochu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XiaochuLearnApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xiaochu-learn-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaochu.XiaochuLearnApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaochu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XiaochuMenuApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xiaochu-menu-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaochu.XiaochuMenuApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaochu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XiaochuSpecialApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xiaochu-special-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaochu.XiaochuSpecialApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaochu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XiaochuUserApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="xiaochu-user-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaochu.UserApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaochu.XiaochuUserApiApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xiaochu.*" />
@@ -111,7 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.XiaochuSpecialApiApplication" />
+        <item itemvalue="Spring Boot.XiaochuLearnApiApplication" />
+        <item itemvalue="Spring Boot.XiaochuGatewayApplication" />
+        <item itemvalue="Spring Boot.XiaochuMenuApiApplication" />
+        <item itemvalue="Spring Boot.XiaochuUserApiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -123,11 +203,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683256063188</updated>
-      <workItem from="1683256064298" duration="9386000" />
+      <workItem from="1683256064298" duration="17664000" />
     </task>
+    <task id="LOCAL-00001" summary="构建user模块骨架">
+      <created>1683287248344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683287248345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="构建user模块骨架">
+      <created>1683287267896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683287267896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="构建user模块骨架" />
+    <MESSAGE value="构建骨架完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建骨架完成" />
   </component>
 </project>

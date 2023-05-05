@@ -6882,8 +6882,8 @@ Unconditional classes:
 2023-05-05 11:54:29,591 DEBUG [main][PropertySourcesPropertyResolver.java:115] - Found key 'logging.config' in PropertySource 'configurationProperties' with value of type String
 2023-05-05 11:54:29,605 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
 2023-05-05 11:54:29,605 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
-2023-05-05 11:54:29,605 DEBUG [main][SpringApplication.java:679] - Loading source class com.xiaochu.UserApplication,class org.springframework.cloud.bootstrap.BootstrapApplicationListener$BootstrapMarkerConfiguration
-2023-05-05 11:54:29,605 DEBUG [main][SpringApplication.java:679] - Loading source class com.xiaochu.UserApplication,class org.springframework.cloud.bootstrap.BootstrapApplicationListener$BootstrapMarkerConfiguration
+2023-05-05 11:54:29,605 DEBUG [main][SpringApplication.java:679] - Loading source class com.xiaochu.XiaochuUserApiApplication,class org.springframework.cloud.bootstrap.BootstrapApplicationListener$BootstrapMarkerConfiguration
+2023-05-05 11:54:29,605 DEBUG [main][SpringApplication.java:679] - Loading source class com.xiaochu.XiaochuUserApiApplication,class org.springframework.cloud.bootstrap.BootstrapApplicationListener$BootstrapMarkerConfiguration
 2023-05-05 11:54:29,612 DEBUG [main][DeferredLog.java:222] - Activated activeProfiles dev
 2023-05-05 11:54:29,612 DEBUG [main][DeferredLog.java:222] - Activated activeProfiles dev
 2023-05-05 11:54:29,613 DEBUG [main][AbstractApplicationContext.java:596] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c48fe92

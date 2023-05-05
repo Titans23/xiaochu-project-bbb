@@ -11,6 +11,13 @@
         <option value="$PROJECT_DIR$/xiaochu-user/xiaochu-user-model/pom.xml" />
         <option value="$PROJECT_DIR$/xiaochu-user/xiaochu-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/xiaochu-user/xiaochu-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaochu-menu/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-model/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaochu-menu/xiaochu-menu-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaochu-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaochu-special/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaochu-learn/pom.xml" />
       </list>
     </option>
   </component>

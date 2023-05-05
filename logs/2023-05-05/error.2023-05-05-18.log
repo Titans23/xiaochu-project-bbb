@@ -30,7 +30,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -73,7 +73,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -117,7 +117,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -154,7 +154,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -198,7 +198,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -241,7 +241,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -263,7 +263,7 @@ org.springframework.context.ApplicationContextException: Failed to start bean 'w
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: java.lang.reflect.UndeclaredThrowableException
 	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147)
 	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:82)
@@ -325,7 +325,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -368,7 +368,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -412,7 +412,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -434,7 +434,7 @@ org.springframework.context.ApplicationContextException: Failed to start bean 'w
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: java.lang.reflect.UndeclaredThrowableException
 	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147)
 	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:82)
@@ -497,7 +497,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -540,7 +540,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -583,7 +583,7 @@ ErrCode:500, ErrMsg:Request nacos server failed:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:631)
@@ -606,7 +606,7 @@ org.springframework.context.ApplicationContextException: Failed to start bean 'w
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
-	at com.xiaochu.UserApplication.main(UserApplication.java:9)
+	at com.xiaochu.XiaochuUserApiApplication.main(UserApplication.java:9)
 Caused by: java.lang.reflect.UndeclaredThrowableException
 	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147)
 	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:82)
